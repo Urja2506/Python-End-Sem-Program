@@ -6,6 +6,7 @@ def divide(numerator, denominator):
   except ZeroDivisionError:
     print("Error: Cannot divide by zero. Please provide a non-zero denominator.")
     return None
+#example
 divide(10,0)
 divide(10,2)
 
